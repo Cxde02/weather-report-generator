@@ -70,9 +70,9 @@ while True:
         printInfo()
 
         #Statements--
-        if temp < 10:
+        if (temp - 273.15) < 10:
             print('\nDress warmly!\n')
-        elif temp > 35:
+        elif (temp - 273.15) > 35:
             print('\nStay hydrated and avoid direct sunlight!\n')
 
     
